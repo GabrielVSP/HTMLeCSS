@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+
+    background-color: rgb(34, 34, 34);
+    color: aliceblue;
+    font-family: cursive;
+   
+}
+
+p {
+
+    text-align: justify;
+
+}
+
+a {
+
+    color: rgb(72, 73, 73);
+    background-color: rgb(19, 19, 18);
+
+}
