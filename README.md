@@ -3,4 +3,4 @@
 
 Olá, Mundo!
 
-<a href="https://gabrielvsp.github.io/HTMLeCSS/Exerc%C3%ADcos/ex10/index.html">Clique aqui para acessar o exercício 12</a>
+<a href="https://gabrielvsp.github.io/HTMLeCSS/Exerc%C3%ADcos/ex012/index.html">Clique aqui para acessar o exercício 12</a>
