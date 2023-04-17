@@ -16,8 +16,22 @@
 
         table {
 
-            width: 500px;
+            width: 480px;
             border-collapse: collapse;
+
+        } 
+
+        tbody > tr:nth-child(even) {
+
+            background-color: lightgray;
+
+        }
+
+        caption {
+
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 15px;
 
         }
 
@@ -49,16 +63,29 @@
 
     <table>
 
+        <caption>Lista de população das unidades federativas</caption>
+
         <thead>
 
             <tr>
 
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 80px;">População</th>
 
             </tr>
 
         </thead>
+
+        <tfoot>
+
+            <tr>
+
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>207.750.291</strong></td>
+
+            </tr>
+
+        </tfoot>
 
         <tbody>
 
@@ -259,17 +286,6 @@
             </tr>
 
         </tbody>
-
-        <tfoot>
-
-            <tr>
-
-                <th>Total de habitantes</th>
-                <td class="num"><strong>207.750.291</strong></td>
-
-            </tr>
-
-        </tfoot>
 
     </table>
 
