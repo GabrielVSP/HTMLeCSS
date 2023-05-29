@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Teste de formulário</h1>
+
+    <form action="cadastro.php" method="postv">
+
+        <p>
+
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">
+
+                <option value="" selected>Escolha um estado</option>
+
+                <optgroup label="Centro-Oeste">
+
+                    <option value="GO">Goiás</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+
+                </optgroup>
+
+                <optgroup label="Sul">
+
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+
+                </optgroup>
+
+            </select>
+
+        </p>
+
+        <p>
+
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+
+                <option value="PROF">Professor</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PUTA">Protistuta</option>
+                <option value="MED">Médico</option>
+
+            </datalist>
+
+        </p>
+
+        <p>
+
+            <label for="imes">Mensagem:</label><br>
+            <textarea name="mes" id="imes" cols="30" rows="10"></textarea>
+
+        </p>
+
+        <p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </p>
+
+    </form>
+
+</body>
+</html>
