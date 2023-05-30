@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* CSS para impressoras */
+
+* {
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+}
+
+ body menu {
+
+    display: none;
+
+}
+
+article {
+
+    width: 100%;
+
+}
+
+article::after {
+
+    content: "Esse artigo foi impresso através do site www.69sex.com";
+
+}
