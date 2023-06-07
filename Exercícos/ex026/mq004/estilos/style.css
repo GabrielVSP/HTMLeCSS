@@ -20,7 +20,7 @@ html  {
 
 body {
 
-    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background: url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 
@@ -35,6 +35,7 @@ main {
 
     background-color: rgba(255, 255, 255, 0.849);
     border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.534);
 
 }
 
@@ -47,7 +48,7 @@ h1 {
 
 }
 
-img {  
+img.imgs {  
     
     margin: auto;
     display: none;

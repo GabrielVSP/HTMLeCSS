@@ -1,2 +1,95 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+   body {
+
+        background-image: url(../imagens/back-tablet.jpg);
+
+   }
+
+   img#phone { display: none; }
+   img#pc { display:  none; }
+   img#tv {  display: none; }
+   img#print { display: none}
+
+   img#tablet { display: block; }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    
+    body {
+
+        background-image: url(../imagens/back-pc.jpg);
+
+    }
+
+    img#phone { display: none; }
+    img#tablet { display:  none; }
+    img#tv {  display: none; }
+    img#print { display: none}
+ 
+    img#pc { display: block; }
+
+}
+
+@media screen and (min-width: 1400px) {
+    
+    body {
+
+        background-image: url(../imagens/back-tv.jpg);
+
+    }
+
+    img#phone { display: none; }
+    img#pc { display:  none; }
+    img#tablet {  display: none; }
+    img#print { display: none}
+ 
+    img#tv { display: block; }
+
+}
+
+@media print {
+
+    * {
+
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    body  {
+
+        background-image: url(../imagens/back-print.jpg);
+
+    }
+
+    main {
+
+        width: 90vw;
+        border: 2px solid black;
+
+    }
+
+    main::after {
+
+        content: "Site feito por Gabriel Vergílio";
+
+    }
+
+    main h1 {
+
+        text-shadow: none;
+        color: black;
+
+    }
+    
+    img#phone { display: none; }
+    img#pc { display:  none; }
+    img#tv {  display: none; }
+    img#tablet { display: none}
+ 
+    img#print { display: block; }
+
+}
